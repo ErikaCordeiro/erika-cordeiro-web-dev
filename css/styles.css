@@ -3,21 +3,17 @@
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 2;
-    margin: 0;
+    margin: 60px;
     padding: 0;
-    background-color: #92795d;
-    color: #322c24;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Definindo a altura total da viewport */
-    margin: 0;
+    background-color: #eee2bf;
+    color: #7c693c;
+
 }
 
 /* Estilo do cabeçalho */
 header {
-    max-width: 800px; /* Definindo a largura máxima para o conteúdo */
-    padding: 0 20px; /* Adicionando algum espaço interno */
+    padding: 20px;
+    text-align: center;
 }
 
 header h1 {
