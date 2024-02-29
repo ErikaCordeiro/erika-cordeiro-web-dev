@@ -1,18 +1,23 @@
 /* Estilos gerais */
+
 body {
-    font-size: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 2;
     margin: 0;
     padding: 0;
-    background-color: #333;
-    color: #fff;
-    
+    background-color: #92795d;
+    color: #322c24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Definindo a altura total da viewport */
+    margin: 0;
 }
 
 /* Estilo do cabeçalho */
 header {
-    padding: 20px;
-    text-align: justify;
+    max-width: 800px; /* Definindo a largura máxima para o conteúdo */
+    padding: 0 20px; /* Adicionando algum espaço interno */
 }
 
 header h1 {
@@ -42,13 +47,6 @@ section p {
     margin-bottom: 15px;
 }
 
-hr {
-    border: 1px; /* Remove a borda padrão */
-    height: 1px; /* Define a altura da linha */
-    color: #ddd;
-    background-color: #ddd; /* Define a cor de fundo da linha */
-    margin: 1px; /* Adiciona margem superior e inferior */
-}
 
 /* Estilo dos projetos */
 section h2 {
@@ -64,14 +62,14 @@ section h3 {
 }
 
 section a {
-    color: #007bff;
+    color: #322c24;
     text-decoration: none;
 }
 
 
 section a:hover {
     text-decoration: underline;
-    color: #8bb5e1;
+    color: #70624c;
 }
 
 /* Estilo dos links de contato */
@@ -87,5 +85,5 @@ select ul li {
 
 section ul li a:hover {
     text-decoration: underline;
-    color: #8bb5e1;
+    color: #70624c;
 }
