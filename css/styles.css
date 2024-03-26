@@ -66,6 +66,7 @@ section a {
 section a:hover {
     text-decoration: underline;
     color: #70624c;
+    cursor: pointer;
 }
 
 /* Estilo dos links de contato */
